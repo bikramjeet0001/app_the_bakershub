@@ -1,0 +1,21 @@
+<nav style="background-image:url('../../assets/img/108.jpg');
+  background-repeat: no-repeat; background-size: cover;" >
+  <h2 class="hometab"> <a href="">Home</a></h2>
+  <h3>/ Shop</h3>
+</nav>
+ <!---Products Section Starts-->
+ <div class="container">
+    <div class="row justify-content-center">
+      <div class="card my-2 mx-4 shadow p-3" style="width: 20rem;" *ngFor="let p of products">
+        <img src="../assets/img/{{p.ID}}.jpg" class="card-img-top my-1.5" alt="." style="cursor: pointer; "
+          (click)="selectProduct(p.ID);">
+        <div class="card-body">
+          <h5 class="card-title text-center">{{p.name | titlecase}}</h5>
+          <p class="price text-center">{{p.Price | currency :'Rs'}}</p>
+          <div class="text-center">
+            <a href="#" class="btn btn-outline-primary">Add to Cart</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Producs Section Ends -->
