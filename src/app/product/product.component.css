@@ -1,0 +1,59 @@
+nav
+{
+
+    height: 5cm;
+}
+nav a
+{
+    position: absolute;
+    top: 150px;
+    left: 70px;
+    color: grey;
+    font-weight: bold;
+}
+nav h5
+{
+    position: absolute;
+    top: 220px;
+    left: 75px;
+    font-weight: bold;
+    color: #555;
+    text-transform: capitalize;
+}
+
+nav h3
+{
+    position: absolute;
+    top: 153px;
+    left: 170px;
+    font-weight: bold;
+    color: #555;
+    text-transform: capitalize;
+}
+.container
+{
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+.details
+{
+    position: absolute;
+    left:35%;
+    margin-bottom:50px ;
+
+
+}
+.rating
+{
+    color: #007185;
+}
+.col-md-7 h2
+{
+    color: #555;
+}
+.price
+{
+    color: #FE980F;
+    font-size: 26px;
+    font-weight: bold;
+}
